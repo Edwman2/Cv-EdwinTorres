@@ -1,0 +1,21 @@
+body{
+    font-family: serif;
+    margin: 1in;
+    color: white;
+
+}
+
+footer{
+    display: none;
+}
+
+main{
+    padding: 0;
+}
+p{
+    page-break-inside:avoid;
+}
+
+@page{
+    margin: 1in;
+}
