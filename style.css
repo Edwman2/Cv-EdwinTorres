@@ -33,7 +33,7 @@ body{
 .header{
         position: relative;
         top: 1%;
-        left: 40%;
+        left: 39%;
         width: 100%;
         padding: 0.5rem 12% 1rem;
         backdrop-filter: blur(10px) !important;
@@ -96,6 +96,7 @@ section{
     justify-content: center;
     align-items: center;
     text-align: center;
+    min-height: 100vh;
     /* background-color: hotpink; */
 }
 span{
@@ -176,6 +177,11 @@ img{
 #icon-menu {
     display: none;
 }
+footer{
+    text-align: center;
+    padding: 1rem;
+
+}
 
 @media (max-width: 768px) {
     nav {
@@ -207,12 +213,12 @@ img{
     }
     #icon-menu {
         display: block;
-        font-size: 3.6rem;
+        font-size: 3.6em;
         cursor: pointer;
         color: white;
         position: absolute;
-        top:1.48rem;
-        left: 49%;
+        top:1.50rem;
+        left: 50%;
         z-index: 5000;
     }
 
