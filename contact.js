@@ -21,5 +21,5 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function playMyAudio() {
-    document.querySelector("myAudio").play();
+    document.querySelector("#myAudio").play();
 }   
