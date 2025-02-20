@@ -23,7 +23,7 @@ html{
 }
   
 body{
-    background: linear-gradient(to bottom, #1E1E2E, #141625);
+    background:#1E1E2E;
     color: var(--text-color);
 }
 
@@ -89,7 +89,7 @@ span{
 .about{
     max-width: 50%;
     margin: 0 auto;
-    padding: 5em 10em 100em;
+    padding: 10em 10em 10em;
     text-align: center;
     
     
