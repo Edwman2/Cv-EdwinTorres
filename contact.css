@@ -52,8 +52,11 @@ color: var(--primary-color);
 border-bottom: 3px solid var(--primary-color);
 }
 .name{
-    font-size: 4rem;
-    font-weight: 700;
+    font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 4rem;
 }
 .navbar ul{
     display: flex;

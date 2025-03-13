@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="portfolio.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="portfolio.css">
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header>
         <header class="header">
             <div id="icon-menu">☰</div>
             <nav class="navbar">
@@ -22,80 +23,127 @@
                 <li><a href="contact.html">Contact</a></li>
               </ul>
             </nav>
+
+
           </header>
-    </header>
-    <div class="grid-container" id="repos">
+    <div class="grid-container">
         <div class="repo-card">
-            <img src="122057797.png" alt="github-avatar">
-            <h1>BankApplication</h1>
-            <div class="buttons">
-                <button class="read-more" data-modal="modal-1">Read More</button>
+                <img src="122057797.png" alt="github-avatar">
+                <h1>BankApplication</h1>
+                
+                <!-- Checkbox for modal toggle (Hidden) -->
+        
+                <!-- Label to open the modal -->
+                
+        
+                <!-- GitHub Link -->
                 <a href="https://github.com/Edwman2/BankApplication.git" target="_blank" class="github-icon">
                     <i class="bx bxl-github"></i>
                 </a>
+                
+                <label for="modal-toggle-BankApplication" class="read-more">Read More</label>
+
+                <input type="checkbox" id="modal-toggle-BankApplication" class="modal-toggle" hidden>
+                <!-- Modal (Should be IMMEDIATELY after the checkbox) -->
+                <div class="modal">
+                    <div class="modal-content">
+                        <h2>BankApplication</h2>
+                        <p>This is a bank application that I have created. It's a console application that allows users to create a bank account, deposit money, withdraw money, and check their balance.</p>
+                        
+                        <!-- Label to close the modal -->
+                        <label for="modal-toggle-BankApplication" class="close-button">Close</label>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <dialog id="modal-1" class="modal">
-                <h2>BankApplication</h2>
-                <p>This is a bank application that i have created. It's a console application that you can use to create a bank account, deposit money, withdraw money and check your balance. It's a simple application that i have created to learn more about C# and how to work with classes and objects.</p>
-                <button class="button close-button">close</button>
-        </dialog>
-
-        <div class="repo-card">
-            <img src="122057797.png" alt="github-avatar">
-            <h1>Cv-EdwinTorres</h1>
-            <div class="buttons">
-                <button class="read-more" data-modal="modal-2">Read More</button>
-                <a href="https://github.com/Edwman2/Cv-EdwinTorres.git" target="_blank" class="github-icon">
-                    <i class="bx bxl-github"></i>
-                </a>
-            </div>
-        </div>
-
-        <dialog id="modal-2" class="modal">
-                <h2>Cv-EdwinTorres</h2>
-                <p>This is the project im doing right, and it for our frontend course</p>
-                <button class="button close-button">Close</button>
-        </dialog>
-
-        <div class="repo-card">
-            <img src="122057797.png" alt="github-avatar">
-            <h1>Lab5</h1>
-            <div class="buttons">
-                <button class="read-more" data-modal="modal-3">Read More</button>
-                <a href="https://github.com/Edwman2/Lab5.git" target="_blank" class="github-icon">
-                    <i class="bx bxl-github"></i>
-                </a>
-            </div>
-        </div>
-
-        <dialog id="modal-3" class="modal">
-                <h2>Lab5</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi illo magni itaque hic fugiat rem assumenda nulla commodi quam nihil omnis, modi accusamus! Enim numquam vero ipsam placeat rerum obcaecati!</p>
-                <button class="button close-button">close</button>
-        </dialog>
-
-        <div class="repo-card">
-            <img src="122057797.png" alt="github-avatar">
-            <h1>VasaGymnasiet</h1>
-            <div class="buttons">
-                <button class="read-more" data-modal="modal-4">Read More</button>
-                <a href="https://github.com/Edwman2/VasaGymnasiet.git" target="_blank" class="github-icon">
-                    <i class="bx bxl-github"></i>
-                </a>
-            </div>
-        </div>
-
-        <div id="modal-4" class="modal">
-            <div class="modal-content">
-                <span class="close-button">&times;</span>
-                <h1>VasaGymnasiet</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi illo magni itaque hic fugiat rem assumenda nulla commodi quam nihil omnis, modi accusamus! Enim numquam vero ipsam placeat rerum obcaecati!</p>
-            </div>
-        </div>
-
+            <div class="repo-card">
+                <img src="122057797.png" alt="github-avatar">
+                <h1>BankApplication</h1>
+                
+                <!-- Checkbox for modal toggle (Hidden) -->
         
+                <!-- Label to open the modal -->
+                
+        
+                <!-- GitHub Link -->
+                <a href="https://github.com/Edwman2/BankApplication.git" target="_blank" class="github-icon">
+                    <i class="bx bxl-github"></i>
+                </a>
+                
+                <label for="modal-toggle-BankApplication" class="read-more">Read More</label>
+
+                <input type="checkbox" id="modal-toggle-BankApplication" class="modal-toggle" hidden>
+                <!-- Modal (Should be IMMEDIATELY after the checkbox) -->
+                <div class="modal">
+                    <div class="modal-content">
+                        <h2>BankApplication</h2>
+                        <p>This is a bank application that I have created. It's a console application that allows users to create a bank account, deposit money, withdraw money, and check their balance.</p>
+                        
+                        <!-- Label to close the modal -->
+                        <label for="modal-toggle-BankApplication" class="close-button">Close</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="repo-card">
+                <img src="122057797.png" alt="github-avatar">
+                <h1>BankApplication</h1>
+                
+                <!-- Checkbox for modal toggle (Hidden) -->
+        
+                <!-- Label to open the modal -->
+                
+        
+                <!-- GitHub Link -->
+                <a href="https://github.com/Edwman2/BankApplication.git" target="_blank" class="github-icon">
+                    <i class="bx bxl-github"></i>
+                </a>
+                
+                <label for="modal-toggle-BankApplication" class="read-more">Read More</label>
+
+                <input type="checkbox" id="modal-toggle-BankApplication" class="modal-toggle" hidden>
+                <!-- Modal (Should be IMMEDIATELY after the checkbox) -->
+                <div class="modal">
+                    <div class="modal-content">
+                        <h2>BankApplication</h2>
+                        <p>This is a bank application that I have created. It's a console application that allows users to create a bank account, deposit money, withdraw money, and check their balance.</p>
+                        
+                        <!-- Label to close the modal -->
+                        <label for="modal-toggle-BankApplication" class="close-button">Close</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="repo-card">
+                <img src="122057797.png" alt="github-avatar">
+                <h1>BankApplication</h1>
+                
+                <!-- Checkbox for modal toggle (Hidden) -->
+        
+                <!-- Label to open the modal -->
+                
+        
+                <!-- GitHub Link -->
+                <a href="https://github.com/Edwman2/BankApplication.git" target="_blank" class="github-icon">
+                    <i class="bx bxl-github"></i>
+                </a>
+                
+                <label for="modal-toggle-BankApplication" class="read-more">Read More</label>
+
+                <input type="checkbox" id="modal-toggle-BankApplication" class="modal-toggle" hidden>
+                <!-- Modal (Should be IMMEDIATELY after the checkbox) -->
+                <div class="modal">
+                    <div class="modal-content">
+                        <h2>BankApplication</h2>
+                        <p>This is a bank application that I have created. It's a console application that allows users to create a bank account, deposit money, withdraw money, and check their balance.</p>
+                        
+                        <!-- Label to close the modal -->
+                        <label for="modal-toggle-BankApplication" class="close-button">Close</label>
+                    </div>
+                </div>
+            </div>
+
+
     </div>
         
     

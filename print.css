@@ -1,21 +1,103 @@
-body{
-    font-family: serif;
-    margin: 1in;
-    color: white;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-footer{
+
+body {
+    background: white;
+    color: black;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+@page {
+    margin: 1in;
+}
+
+
+.navbar, #icon-menu, .name {
     display: none;
 }
 
-main{
-    padding: 0;
-}
-p{
-    page-break-inside:avoid;
+
+.content {
+    margin-top: 2em;
+    display: block;
 }
 
-@page{
-    margin: 1in;
+.content h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+}
+
+
+.profile {
+    padding: 1em 2em;
+}
+
+.profile h2 {
+    font-size: 1.8rem;
+}
+
+.profile h3, h4 {
+    font-size: 1rem;
+}
+
+
+.grid-container {
+    margin-top: 2em;
+    display: block;
+    padding: 1em 2em;
+}
+
+ .grid-container h1 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.grid-container h2 {
+    font-size: 1.8rem;
+}
+
+.grid-container h3 {
+    font-size: 1.2rem;
+}
+
+.grid-container p {
+    font-size: 1rem;
+}
+
+
+.grid-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.read-more {
+    display: none;
+}
+
+@media print and (max-width: 768px) {
+    .grid-container {
+        padding: 0;
+        display: block;
+        gap: 1rem;
+    }
+
+    .grid-container h1 {
+        font-size: 2rem;
+    }
+
+    .grid-container p {
+        font-size: 1rem;
+    }
 }
